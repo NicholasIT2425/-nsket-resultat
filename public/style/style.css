@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left{
+    background-color:red;
+    height: 100vh;
+    background-image: url('../img/IMG_0443.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+.right{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color:blue;
+    height: 100vh;
+}
+
+.right-top{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color:yellow;
+}
+
+.rt-left{
+    background-color:orange;
+    background-image: url('../img/Nicken\ i\ krigen.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.rt-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:pink;
+}
+
+.con{
+    border: 1px solid white;   
+}
+
+.right-bottom{
+    display: grid;
+    grid-template-rows:repeat(3,1fr);
+    background-color:green;
+}
+
+#mittbilde1{
+    background-image: url('../img/Nicholas2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#mittbilde2{
+    background-image: url('../img/EGilbilde2.jpg');
+    background-size: cover;
+    background-position: center;
+}
